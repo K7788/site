@@ -16,7 +16,6 @@ export default function Header() {
             <Nav.Link href="#link">Обо мне</Nav.Link>
             <Nav.Link href="#link">Проекты</Nav.Link>
             <Nav.Link href="#link">Контакты</Nav.Link>
-            <Button variant="dark">Dark</Button>{" "}
           </Nav>
         </Navbar.Collapse>
       </Container>
