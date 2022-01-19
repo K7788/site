@@ -2,4 +2,10 @@
   display: flex !important;
   justify-content: end;
   flex-grow: 0;
+  z-index: 0;
+}
+
+
+  .bg-light {
+  z-index: 1;
 }
