@@ -1,0 +1,47 @@
+
+
+
+.fh5co-bg-section {
+    padding: 7em 0;
+    clear: both;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.05);
+}
+.feature-center {
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.feature-center .icon {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.feature-center .icon i {
+    font-size: 60px;
+    color: #0C9CEE;
+}
+
+.feature-center h3 {
+    font-size: 22px;
+    color: #5d5d5d;
+}
+
+.feature-center p, .feature-center h3 {
+    margin-bottom: 30px;
+}
+
+.icon-power:before {
+    content: "\e086";
+}
+
+.icon-command:before {
+    content: "\e087";
+}
+
+.icon-eye:before {
+    content: "\e000";
+}

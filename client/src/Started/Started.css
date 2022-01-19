@@ -1,0 +1,36 @@
+#fh5co-started {
+    background: #0c9cee;
+    padding: 7em 0;
+    clear: both;
+}
+
+#fh5co-started .fh5co-heading h2 {
+    color: #fff;
+    margin-bottom: 20px !important;
+}
+
+#fh5co-started .fh5co-heading p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.fh5co-heading p {
+    font-size: 18px;
+    line-height: 1.5;
+   
+}
+
+.col-md-offset-3 {
+    margin-left: 25%;
+}
+
+#fh5co-started .btn {
+    height: 54px;
+    border: none !important;
+    background: #f35f55;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-left: 50px;
+    padding-right: 50px;
+}
