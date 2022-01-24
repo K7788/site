@@ -12,7 +12,7 @@ export default function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Главная</Nav.Link>
-            <Nav.Link href="#link">Работы</Nav.Link>
+            <Nav.Link href="Work.js">Работы</Nav.Link>
             <Nav.Link href="#link">Обо мне</Nav.Link>
             <Nav.Link href="#link">Проекты</Nav.Link>
             <Nav.Link href="#link">Контакты</Nav.Link>
