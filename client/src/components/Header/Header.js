@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import { Link, BrowserRouter } from "react-router-dom";
 
 import "./Header.css";
@@ -7,19 +7,30 @@ import "./Header.css";
 export default function Header() {
   return (
     <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">King</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <div className="container">
+        <p>Бурназова Ю. С.</p>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link to="/">Главная</Link>
-            <Link to="/work">Работы</Link>
-            <Link to="/about">Обо мне</Link>
-            <Link to="/projects">Проекты</Link>
-            <Link to="/contacts">Контакты</Link>
+            <ul>
+              <li>
+                <Link to="/">Главная</Link>
+              </li>
+              <li>
+                <Link to="/work">Работы</Link>
+              </li>
+              <li>
+                <Link to="/about">Обо мне</Link>
+              </li>
+              <li>
+                <Link to="/projects">Проекты</Link>
+              </li>
+              <li>
+                <Link to="/contacts">Контакты</Link>
+              </li>
+            </ul>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      </div>
     </Navbar>
   );
 }

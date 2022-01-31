@@ -9,7 +9,6 @@ import Started from "../Started/Started";
 export default function Main() {
   return (
     <div>
-      <HeaderNav />
       <HappyClient />
       <OurProject />
       <Services />

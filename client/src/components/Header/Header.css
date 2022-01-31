@@ -1,3 +1,6 @@
+/* nav {
+  background: red;
+} */
 .navbar-expand-lg .container .navbar-collapse {
   display: flex !important;
   justify-content: end;
@@ -5,7 +8,32 @@
   z-index: 0;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .bg-light {
+.container {
+  align-items: baseline;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  padding: 5px;
+}
+ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+ul li.active > a {
+  color: #fff !important;
+}
+
+.bg-light {
   z-index: 1;
 }
