@@ -2,6 +2,20 @@
   background: red;
 } */
 
+.container {
+  display: block !important;
+}
+
+.container-bg .container .row .col {
+  padding: 0.5rem;
+}
+
+.col p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 5px;
+}
+
 ul {
   display: flex;
 }
@@ -10,11 +24,24 @@ ul li {
   list-style: none;
   padding: 5px;
 }
+
+ul li a:hover {
+  color: #fff;
+}
+
 ul li a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
-ul li.active > a {
+ul li a.active {
   color: #fff !important;
+}
+
+.navbar-expand .navbar-collapse {
+  display: flex !important;
+  justify-content: center;
+  /* flex-basis: auto; */
 }

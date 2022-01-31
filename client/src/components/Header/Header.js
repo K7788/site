@@ -7,14 +7,14 @@ import "./Header.css";
 export default function Header() {
   return (
     <Navbar>
-      <Container fluid>
+      <Container>
         <Row>
           <Col>
             <p>Бурназова Ю. С.</p>
           </Col>
           <Col>
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
+              <Nav>
                 <ul>
                   <li>
                     <Link to="/">Главная</Link>
