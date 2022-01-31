@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Navbar, Container, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, BrowserRouter } from "react-router-dom";
 
 import "./Header.css";
 
@@ -12,7 +12,7 @@ export default function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link to="/home">Главная</Link>
+            <Link to="/">Главная</Link>
             <Link to="/work">Работы</Link>
             <Link to="/about">Обо мне</Link>
             <Link to="/projects">Проекты</Link>

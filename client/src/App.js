@@ -1,28 +1,24 @@
-import React from "react";
-import CoreFeature from "./components/CoreFeature/CoreFeature";
+import React, { Fragment } from "react";
 import Footer from "./components/Footer/Footer";
-import HappyClient from "./components/HappyClient/HappyClient";
 import Header from "./components/Header/Header";
-import HeaderNav from "./components/HeaderNav/HeaderNav";
+import Main from "./components/Main/Main";
+import About from "./components/Pages/About/About";
+import Work from "./components/Pages/Work/Work";
 import OurProject from "./components/OurProject/OurProject";
-import Services from "./components/Services/Services";
-import Started from "./components/Started/Started";
 
-import { BrowserRouter as Router } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 export default function App() {
   return (
     <div>
-      <Router>
-        <Header />
-        <HeaderNav />
-        <CoreFeature />
-        <Services />
-        <OurProject />
-        <HappyClient />
-        <Started />
-        <Footer />
-      </Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="about" element={<About />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/projects" element={<OurProject />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
