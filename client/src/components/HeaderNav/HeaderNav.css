@@ -1,26 +1,7 @@
 .container-bg {
   background-image: url("../../../public/img_bg_2.jpg");
   background-size: cover;
-  width: 100%;
-  height: 705px;
-  /* display: flex; */
 }
-
-.container {
-  display: flex;
-  justify-content: space-between;
-}
-
-/* .container-fluid::before {
-  content:"";
-  z-index: 0;
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.3);
-} */
 
 .text-center {
   display: flex;

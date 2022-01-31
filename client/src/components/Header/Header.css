@@ -1,21 +1,6 @@
 /* nav {
   background: red;
 } */
-.navbar-expand-lg .container .navbar-collapse {
-  display: flex !important;
-  justify-content: end;
-  flex-grow: 0;
-  z-index: 0;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.container {
-  align-items: baseline;
-}
 
 ul {
   display: flex;
@@ -32,8 +17,4 @@ ul li a {
 
 ul li.active > a {
   color: #fff !important;
-}
-
-.bg-light {
-  z-index: 1;
 }
