@@ -8,17 +8,21 @@ import OurProject from "./components/OurProject/OurProject";
 import Services from "./components/Services/Services";
 import Started from "./components/Started/Started";
 
+import { BrowserRouter as Router } from "react-router-dom";
+
 export default function App() {
   return (
     <div>
-      <Header />
-      <HeaderNav />
-      <CoreFeature />
-      <Services />
-      <OurProject />
-      <HappyClient />
-      <Started />
-      <Footer />
+      <Router>
+        <Header />
+        <HeaderNav />
+        <CoreFeature />
+        <Services />
+        <OurProject />
+        <HappyClient />
+        <Started />
+        <Footer />
+      </Router>
     </div>
   );
 }
