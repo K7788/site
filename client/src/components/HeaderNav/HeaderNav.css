@@ -1,7 +1,13 @@
 .container-bg {
   background-image: url("../../../public/img_bg_2.jpg");
   background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+
+ 
+ 
 }
+
+
 
 .text-center {
   display: flex;
@@ -16,13 +22,21 @@
   font-size: 60px;
   color: white;
   text-decoration: uppercase;
+  z-index: 3  ;
+
 }
 
 .text-center h2 {
   font-size: 20px;
   color: white;
+  z-index: 3;
+ 
 }
 
 .headerNavPt {
-  padding: 18rem;
+
+  
+  padding: 17rem;
 }
+
+

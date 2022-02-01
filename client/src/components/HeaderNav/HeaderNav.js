@@ -6,7 +6,7 @@ import "./HeaderNav.css";
 
 export default function HeaderNav() {
   return (
-    <div className="container-bg">
+    <div className="container-bg container-before">
       <Container fluid>
         <Header />
         <Row>
@@ -18,6 +18,8 @@ export default function HeaderNav() {
           </Col>
         </Row>
       </Container>
+     
     </div>
+  
   );
 }
