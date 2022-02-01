@@ -1,0 +1,199 @@
+#fh5co-project {
+    padding: 7em 0;
+    clear: both;
+}
+
+
+.project-grid_one {
+    background-image: url("../../../../public/project-2.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+.project-grid_two {
+    background-image: url("../../../../public/project-2.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+.project-grid_three {
+    background-image: url("../../../../public/project-2.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+.project-grid_four {
+    background-image: url("../../../../public/project-2.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+.project-grid_fife {
+    background-image: url("../../../../public/project-2.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+.project-grid_six {
+    background-image: url("../../../../public/project-2.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+
+.project-grid_seven {
+    background-image: url("../../../../public/project-2.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+.project-grid_eight {
+    background-image: url("../../../../public/project-2.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+.project-grid_nine {
+    background-image: url("../../../../public/project-2.jpg");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.project-grid_one .desc {
+    background: rgba(12, 156, 238, 0.9);
+    padding: 10px 20px;
+    position: absolute;
+    bottom: -93px;
+    left: 0;
+    right: 0;
+    transition: 0.1s;
+}
+
+.project-grid_two .desc {
+    background: rgba(12, 156, 238, 0.9);
+    padding: 10px 20px;
+    position: absolute;
+    bottom: -93px;
+    left: 0;
+    right: 0;
+    transition: 0.1s;
+}
+
+.project-grid_three .desc {
+    background: rgba(12, 156, 238, 0.9);
+    padding: 10px 20px;
+    position: absolute;
+    bottom: -93px;
+    left: 0;
+    right: 0;
+    transition: 0.1s;
+}
+
+.project-grid_four .desc {
+    background: rgba(12, 156, 238, 0.9);
+    padding: 10px 20px;
+    position: absolute;
+    bottom: -93px;
+    left: 0;
+    right: 0;
+    transition: 0.1s;
+}
+
+
+.project-grid_fife .desc {
+    background: rgba(12, 156, 238, 0.9);
+    padding: 10px 20px;
+    position: absolute;
+    bottom: -93px;
+    left: 0;
+    right: 0;
+    transition: 0.1s;
+}
+
+.project-grid_six .desc {
+    background: rgba(12, 156, 238, 0.9);
+    padding: 10px 20px;
+    position: absolute;
+    bottom: -93px;
+    left: 0;
+    right: 0;
+    transition: 0.1s;
+}
+.project-grid_seven .desc {
+    background: rgba(12, 156, 238, 0.9);
+    padding: 10px 20px;
+    position: absolute;
+    bottom: -93px;
+    left: 0;
+    right: 0;
+    transition: 0.1s;
+}
+
+.project-grid_eight .desc {
+    background: rgba(12, 156, 238, 0.9);
+    padding: 10px 20px;
+    position: absolute;
+    bottom: -93px;
+    left: 0;
+    right: 0;
+    transition: 0.1s;
+}
+
+.project-grid_nine .desc {
+    background: rgba(12, 156, 238, 0.9);
+    padding: 10px 20px;
+    position: absolute;
+    bottom: -93px;
+    left: 0;
+    right: 0;
+    transition: 0.1s;
+}

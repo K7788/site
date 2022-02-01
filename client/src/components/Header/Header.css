@@ -23,6 +23,7 @@ ul {
 ul li {
   list-style: none;
   padding: 5px;
+  margin-right: 20px;
 }
 
 ul li a:hover {
